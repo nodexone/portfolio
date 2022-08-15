@@ -1,8 +1,6 @@
-# Personal Portfolio Website in React
+# Personal Portfolio Website in React [![Netlify Status](https://api.netlify.com/api/v1/badges/3aeecddc-a2d1-4f0e-9211-f84d36044c35/deploy-status)](https://app.netlify.com/sites/vocal-kitsune-7fe775/deploys)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+<img width="1266" alt="nodex" src="https://github.com/nodesxploit/portfolio/blob/main/public/redmi.png?raw=true">
 
 Built using:
 
