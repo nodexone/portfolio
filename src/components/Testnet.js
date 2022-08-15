@@ -5,7 +5,6 @@ import meter3 from "../assets/img/stride.png";
 import meter4 from "../assets/img/teritori.png";
 import meter5 from "../assets/img/uptick.png";
 import meter6 from "../assets/img/subquery.png";
-import meter7 from "../assets/img/quicksilver.png";
 import meter8 from "../assets/img/bundlr.svg";
 import meter9 from "../assets/img/aptos.png";
 import meter10 from "../assets/img/defund.png";
@@ -20,9 +19,7 @@ import meter18 from "../assets/img/juno.png";
 import meter19 from "../assets/img/rebus.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 export const Testnet = () => {
@@ -57,8 +54,6 @@ export const Testnet = () => {
                         <a class="github-button" href="https://github.com/nodesxploit/testnet"  target="_blank" data-icon="octicon-star" data-size="large" data-show-count="true">Github Stars ⭐</a>
                         <br></br>
                         <br></br>
-                        
-                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
                             <a href="https://github.com/nodesxploit/testnet/tree/main/stride" target="_blank">  <img src={meter3} alt="Image" /></a>
@@ -144,4 +139,5 @@ export const Testnet = () => {
         <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
+  
 }
