@@ -6,7 +6,6 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Testnet } from "./components/Testnet";
 import { Team } from "./components/Team";
-import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 function App() {
