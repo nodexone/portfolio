@@ -17,6 +17,7 @@ import meter16 from "../assets/img/sui.png";
 import meter17 from "../assets/img/peaq.png";
 import meter18 from "../assets/img/juno.png";
 import meter19 from "../assets/img/rebus.png";
+import meter20 from "../assets/img/icw.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png";
@@ -64,8 +65,8 @@ export const Testnet = () => {
                             <a href="https://github.com/nodesxploit/testnet/tree/main/tidechain" target="_blank">  <h5>Tidechain</h5></a>
                             </div>
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/sei" target="_blank"> <img src={meter2} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/sei" target="_blank"> <h5>Sei Network</h5></a>
+                            <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <img src={meter20} alt="Image" /></a>
+                            <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <h5>Icw Chain</h5></a>
                             </div>
                             <div className="item">
                             <a href="https://github.com/nodesxploit/testnet/tree/main/bundlr" target="_blank"> <img src={meter8} alt="Image" /></a>
