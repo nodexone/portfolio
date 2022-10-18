@@ -66,7 +66,7 @@ export const Testnet = () => {
                             </div>
                             <div className="item">
                             <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <img src={meter20} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <h5>Icw Chain</h5></a>
+                            <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <h5>ICW Chain</h5></a>
                             </div>
                             <div className="item">
                             <a href="https://github.com/nodesxploit/testnet/tree/main/bundlr" target="_blank"> <img src={meter8} alt="Image" /></a>
