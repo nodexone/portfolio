@@ -1,23 +1,31 @@
 import React from 'react';
-import meter1 from "../assets/img/tidefi.png";
-import meter2 from "../assets/img/sei.png";
-import meter3 from "../assets/img/stride.png";
-import meter4 from "../assets/img/teritori.png";
-import meter5 from "../assets/img/uptick.png";
-import meter6 from "../assets/img/subquery.png";
-import meter8 from "../assets/img/bundlr.svg";
-import meter9 from "../assets/img/aptos.png";
-import meter10 from "../assets/img/defund.png";
-import meter11 from "../assets/img/deweb.png";
-import meter12 from "../assets/img/celestia.png";
-import meter13 from "../assets/img/masa.png";
-import meter14 from "../assets/img/paloma.png";
-import meter15 from "../assets/img/forta.png";
-import meter16 from "../assets/img/sui.png";
-import meter17 from "../assets/img/peaq.png";
-import meter18 from "../assets/img/juno.png";
-import meter19 from "../assets/img/rebus.png";
-import meter20 from "../assets/img/icw.png";
+
+import andromeda from "../assets/img/andromeda.png";
+import sei from "../assets/img/sei.png";
+import babylon from "../assets/img/babylon.png";
+import blockx from "../assets/img/blockx.png";
+import uptick from "../assets/img/uptick.png";
+import celestia from "../assets/img/celestia.png";
+import coreum from "../assets/img/coreum.png";
+import defund from "../assets/img/defund.png";
+import dymension from "../assets/img/dymension.png";
+import gitopia from "../assets/img/gitopia.png";
+import humans from "../assets/img/humans.png";
+import mars from "../assets/img/mars.png";
+import neutron from "../assets/img/neutron.jpg";
+import nibiru from "../assets/img/nibiru.png";
+import sui from "../assets/img/sui.png";
+import nois from "../assets/img/nois.png";
+import nolus from "../assets/img/nolus.jpg";
+import okp4 from "../assets/img/okp4.png";
+import quasar from "../assets/img/quasar.png";
+import realio from "../assets/img/realio.png";
+import saage from "../assets/img/saage.png";
+import terp from "../assets/img/terp.png";
+import tidefi from "../assets/img/tidefi.png";
+import lava from "../assets/img/lava.png";
+import source from "../assets/img/source.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png";
@@ -50,87 +58,135 @@ export const Testnet = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2> Mainnet & Testnet Guide✨</h2>
-                        <p>Here's the simply guide from various mainnet & testnet below! </p>
-                        <a class="github-button" href="https://github.com/nodesxploit/testnet"  target="_blank" data-icon="octicon-star" data-size="large" data-show-count="true">Github Stars ⭐</a>
+                        <h2> Testnet Guide✨</h2>
+                        <p>Here's the simply guide from various testnet below! </p>
+                        <a class="github-button" href="https://github.com/nodexcapital/testnet"  target="_blank" data-icon="octicon-star" data-size="large" data-show-count="true">Github Stars ⭐</a>
                         <br></br>
                         <br></br>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/stride" target="_blank">  <img src={meter3} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/stride" target="_blank">  <h5>Stride</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/andromeda" target="_blank">  <img src={andromeda} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/andromeda" target="_blank">  <h5>Andromeda</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/tidechain" target="_blank"> <img src={meter1} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/tidechain" target="_blank">  <h5>Tidechain</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/babylon" target="_blank"> <img src={babylon} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/babylon" target="_blank">  <h5>Babylon</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <img src={meter20} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/icw" target="_blank"> <h5>ICW Chain</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/blockx" target="_blank"> <img src={blockx} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/blockx" target="_blank">  <h5>BlockX</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/bundlr" target="_blank"> <img src={meter8} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/bundlr" target="_blank"> <h5>Bundlr</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/celestia" target="_blank"> <img src={celestia} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/celestia" target="_blank">  <h5>Celestia</h5></a>
                             </div>
-                            {/* <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/quicksilver" target="_blank"> <img src={meter7} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/quicksilve" target="_blank"> <h5>Quicksilver</h5></a>
-                            </div> */}
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/subquery" target="_blank"><img src={meter6} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/subquery" target="_blank"> <h5>Subquery</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/coreum" target="_blank"> <img src={coreum} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/coreum" target="_blank">  <h5>Coreum</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/uptick" target="_blank"> <img src={meter5} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/uptick" target="_blank"> <h5>Uptick</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/defund" target="_blank"> <img src={defund} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/defund" target="_blank">  <h5>Defund</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/teritori" target="_blank"> <img src={meter4} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/teritori" target="_blank"> <h5>Teritori</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/dymension" target="_blank"> <img src={dymension} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/dymension" target="_blank">  <h5>Dymnension</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/aptos" target="_blank"><img src={meter9} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/aptos" target="_blank"> <h5>Aptos</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/gitopia" target="_blank"> <img src={gitopia} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/gitopia" target="_blank"> <h5>Gitopia</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/defund" target="_blank"><img src={meter10} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/defund" target="_blank"><h5>Defund</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/humans" target="_blank"> <img src={humans} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/humans" target="_blank"> <h5>Humans AI</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/deweb" target="_blank"><img src={meter11} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/deweb" target="_blank"> <h5>Deweb</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/lava" target="_blank"><img src={lava} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/lava" target="_blank"> <h5>Lava Network</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/celestia" target="_blank"><img src={meter12} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/celestia" target="_blank"> <h5>Celestia</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/mars" target="_blank"> <img src={mars} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/mars" target="_blank"> <h5>Mars Protocol</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/masa" target="_blank"><img src={meter13} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/masa" target="_blank"> <h5>Masa</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/neutron" target="_blank"> <img src={neutron} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/neutron" target="_blank"> <h5>Neutron</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/paloma" target="_blank"> <img src={meter14} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/paloma" target="_blank"> <h5>Paloma</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/nibiru" target="_blank"><img src={nibiru} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/nibiru" target="_blank"> <h5>Nibiru</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/forta" target="_blank"> <img src={meter15} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/forta" target="_blank"> <h5>Forta</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/nois" target="_blank"><img src={nois} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/nois" target="_blank"> <h5>Nois Network</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/peaq" target="_blank"><img src={meter17} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/peaq" target="_blank"><h5>Peaq</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/nolus" target="_blank"><img src={nolus} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/nolus" target="_blank"> <h5>Nolus</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/juno" target="_blank"><img src={meter18} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/juno" target="_blank"><h5>Juno</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/okp4" target="_blank"><img src={okp4} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/okp4" target="_blank"><h5>Okp4 Network</h5></a>
                             </div>
+
                             <div className="item">
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/rebus" target="_blank"><img src={meter19} alt="Image" /></a>
-                            <a href="https://github.com/nodesxploit/testnet/tree/main/rebus" target="_blank"><h5>Rebus</h5></a>
-                                </div>
-                                <div className="item">
-                                <a href="https://github.com/nodesxploit/testnet/tree/main/sui" target="_blank"><img src={meter16} alt="Image" /></a>
-                                <a href="https://github.com/nodesxploit/testnet/tree/main/sui" target="_blank"><h5>Sui Network</h5></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/uptick" target="_blank"><img src={uptick} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/uptick" target="_blank"> <h5>Uptick</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/quasar" target="_blank"><img src={quasar} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/quasar" target="_blank"> <h5>Quasar</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/realio" target="_blank"> <img src={realio} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/realio" target="_blank"> <h5>Realio Network</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/sei" target="_blank"> <img src={sei} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/sei" target="_blank"> <h5>Sei Network</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/sigma" target="_blank"><img src={saage} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/sigma" target="_blank"><h5>Sge Network</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/source" target="_blank"><img src={source} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/source" target="_blank"><h5>Source Protocol</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/sui" target="_blank"><img src={sui} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/sui" target="_blank"><h5>Sui Network</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/terp" target="_blank"><img src={terp} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/terp" target="_blank"><h5>Terp Network</h5></a>
+                            </div>
+
+                            <div className="item">
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/tidechain" target="_blank"><img src={tidefi} alt="Image" /></a>
+                            <a href="https://github.com/nodexcapital/testnet/tree/main/tidechain" target="_blank"><h5>Tidechain</h5></a>
                             </div>
                         </Carousel>
                     </div>

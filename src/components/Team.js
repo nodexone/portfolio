@@ -55,7 +55,7 @@ export const Team = () => {
                 <br></br>
                 <br></br>
                 <center><h2>Team</h2>
-                <p>We are legion, we don't forget, expect us!</p>
+                <p>We are a professional PoS Validator, Stake with Us!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                   </Nav>
